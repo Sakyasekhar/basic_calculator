@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css"  href="calculator.css">
+    </head>
+    <body>
+        <section >
+        <h1 class="head" >Calculator</h1>
+        <div id="inputbox"></div>
+        <div id="outputbox"></div>
+        <div class="buttons">
+            <button onclick="takenumber('+')">+</button>
+            <button onclick="takenumber('-')">-</button>
+            <button onclick="takenumber('*')">*</button>
+            <button onclick="takenumber('/')">/</button>
+        </div>
+        <div class="buttons">
+            <button  onclick="takenumber('7')">7</button>
+            <button  onclick="takenumber('8')">8</button>
+            <button  onclick="takenumber('9')">9</button>
+            <button onclick="takenumber('(')">(</button>
+        </div>
+        <div class="buttons">
+            <button  onclick="takenumber('4')">4</button>
+            <button  onclick="takenumber('5')">5</button>
+            <button  onclick="takenumber('6')">6</button>
+            <button  onclick="takenumber(')')">)</button>
+        </div>
+        <div class="buttons">
+            <button  onclick="takenumber('1')">1</button>
+            <button  onclick="takenumber('2')">2</button>
+            <button onclick="takenumber('3')">3</button>
+            <button  onclick="equalto()" >=</button>
+            
+        </div>
+        <div class="buttons">
+            <button onclick="takenumber('.')">.</button>
+            <button  onclick="takenumber('0')">0</button>
+            <a href="calculator.html">AC</a>
+            <button onclick="backspace()">Back</button>
+            
+        </div>
+
+        </section>
+        <script src="calculator.js"></script>
+    </body>
+</html>
